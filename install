@@ -19,10 +19,10 @@ sudo apt-get install libstdc++6 -y
 sudo apt-get install lua-lgi -y
 sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
-lua DRAGON.lua
-sudo chmod +x DRAGON
-sudo chmod +x ./DRG
-./DRG
+lua mostafa.lua
+sudo chmod +x mostafa
+sudo chmod +x ./install
+./install
 }
 if [ "$1" = "install" ]; then
 install
@@ -32,8 +32,31 @@ echo "Tg Is Not Found"
 exit 1
 fi
 sudo chmod +x tg
-lua DRAGON.lua
-sudo chmod +x DRAGON
-sudo chmod +x ./DRG
-./DRG
+lua mostafa.lua
+sudo chmod +x mostafa
+sudo chmod +x ./install
+./install
 fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
